@@ -1,0 +1,8 @@
+streamlit>=1.32.0
+langchain_community>=0.0.29
+transformers>=4.40.0
+torch>=2.2.0
+gitpython>=3.1.42
+flake8>=7.0.0
+pylint>=3.1.0
+bandit>=1.7.7
