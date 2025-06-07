@@ -28,6 +28,7 @@ Coderate is a user-friendly web app that helps you review and improve your Pytho
 - **Fetches your code** (from GitHub or your computer)
 - **Checks for style, bugs, and security issues** using flake8, pylint, and bandit
 - **Gives you AI-powered suggestions** for how to fix and improve your code
+- **Generates and lets you download a detailed Markdown report** with code, static analysis results, and AI suggestions
 
 ---
 
