@@ -1,9 +1,9 @@
 import subprocess
 import tempfile
 import os
+from typing import List
 
-def run_static_analysis(file_content: str, analysis_types: list[str]) -> str:
-    """Run static analysis tools on a single file's content."""
+def run_static_analysis(file_content: str, analysis_types: List[str]) -> str:
     analysis_output = []
     try:
         with tempfile.NamedTemporaryFile(suffix='.py', delete=False, mode='w') as f:
