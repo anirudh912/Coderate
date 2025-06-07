@@ -6,3 +6,4 @@ gitpython>=3.1.42
 flake8>=7.0.0
 pylint>=3.1.0
 bandit>=1.7.7
+accelerate>=0.26.0
