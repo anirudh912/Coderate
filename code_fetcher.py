@@ -3,8 +3,10 @@ import tempfile
 from pathlib import Path
 import shutil
 import git
+from typing import List, Tuple
 
-def fetch_code(repo_or_path: str) -> list[tuple[str, str]]:
+
+def fetch_code(repo_or_path: str) -> List[Tuple[str, str]]:
     """Fetch code from a GitHub repo or local path."""
     code_snippets = []
     try:
